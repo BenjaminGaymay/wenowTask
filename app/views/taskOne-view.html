@@ -1,0 +1,35 @@
+<include href="header.html" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+                <li><a href="./">Home</a></li>
+                <li class="active">Task1</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <th>Company name</th>
+                    <th>Active vehicles</th>
+                    <th>Inactive vehicles</th>
+                </thead>
+
+                <tbody>
+                    <repeat group="{{ @results }}" key="{{ @companyName }}" value="{{ @vehicles }}">
+                        <tr>
+                            <td>{{ @companyName }}</td>
+                            <td> {{ @vehicles.actives }} </td>
+                            <td> {{ @vehicles.inactives }} </td>
+                        </tr>
+                    </repeat>
+                </tbody>
+        </div>
+    </div>
+</div>
+
+<include href="footer.html" />
