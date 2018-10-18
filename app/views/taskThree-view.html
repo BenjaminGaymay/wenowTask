@@ -1,0 +1,43 @@
+<include href="header.html" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+                <li><a href="./">Home</a></li>
+                <li class="active">Task3</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+		<h1> Trips state per vehicle </h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <th>Vehicle plate</th>
+                    <th>Number of tips</th>
+                    <th>Distance of tips</th>
+                    <th>Duration of tips</th>
+                </thead>
+
+                <tbody>
+                    <repeat group="{{ @results }}" key="{{ @vehiclesPlate }}" value="{{ @vehicles }}">
+                        <tr>
+                            <td>{{ @vehiclesPlate }}</td>
+                            <td> {{ @vehicles.trips }} </td>
+                            <td> {{ @vehicles.sum_dist }} </td>
+                            <td> {{ @vehicles.sum_dur }} </td>
+                        </tr>
+                    </repeat>
+                </tbody>
+        </div>
+    </div>
+</div>
+
+<include href="footer.html" />
