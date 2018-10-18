@@ -30,7 +30,6 @@ class TaskOneController implements ControllerInterface
     {
         $companiesMapper = SqlModelFactory::instance()->getMapper('companies');
         $vehiclesMapper = SqlModelFactory::instance()->getMapper('vehicles');
-        $tripsMapper = SqlModelFactory::instance()->getMapper('trips');
 
         $companiesMapper->load();
         if ($companiesMapper->dry()) {
