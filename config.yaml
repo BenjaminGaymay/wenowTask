@@ -1,0 +1,6 @@
+db:
+    host: localhost
+    port: 3306
+    user: root     # Insert the name of your database user here
+    password: root # Insert the name of your database password here
+    database: partime # Insert the name of your database here

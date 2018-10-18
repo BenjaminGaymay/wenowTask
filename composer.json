@@ -1,0 +1,12 @@
+{
+    "require": {
+        "bcosca/fatfree-core": "^3.6",
+        "robmorgan/phinx": "^0.10.6"
+    },
+    "autoload": {
+        "files": [],
+        "psr-0": {
+            "": "app/"
+        }
+    }
+}
