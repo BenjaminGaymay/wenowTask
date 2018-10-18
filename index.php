@@ -10,6 +10,7 @@ $f3->set('AUTOLOAD', 'app/');
 $f3->route('GET /sample','controllers\SampleController->display');
 $f3->route('GET /taskOne','controllers\TaskOneController->display');
 $f3->route('GET /taskTwo','controllers\TaskTwoController->display');
+$f3->route('GET /taskThree','controllers\TaskThreeController->display');
 $f3->route(
     'GET /',
     function($f3) {
