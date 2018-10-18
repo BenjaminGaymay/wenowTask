@@ -1,6 +1,6 @@
 # PHP tests for WeNow
 
-Some tests to manage a SQL Database with PHP/FatFree
+Some tests to manage a SQL Database with PHP/FatFree.
 
 ## Tasks
 
