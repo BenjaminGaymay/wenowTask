@@ -13,15 +13,15 @@
                     Trips per hour
                     <span class="label label-success">Sample</span>
                 </a>
-                <a href="#" class="list-group-item">
+                <a href="taskOne" class="list-group-item">
                     Trips stats per company
                     <span class="label label-warning">Task 1</span>
                 </a>
-                <a href="#" class="list-group-item">
+                <a href="taskTwo" class="list-group-item">
                     Vehicles in companies
                     <span class="label label-warning">Task 2</span>
                 </a>
-                <a href="#" class="list-group-item">
+                <a href="taskThree" class="list-group-item">
                     Trips stats per vehicle
                     <span class="label label-warning">Task 3</span>
                 </a>
